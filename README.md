@@ -31,7 +31,40 @@ A dark color theme for Visual Studio Code inspired by JetBrains' Islands Dark th
 
 This theme has two parts: a **color theme** and **CSS customizations** that create the floating glass panel look.
 
-### Step 1: Install the theme
+### Quick Install (Recommended)
+
+The fastest way to install is using the automated scripts:
+
+#### macOS/Linux
+
+```bash
+git clone https://github.com/bwya77/vscode-dark-islands.git islands-dark
+cd islands-dark
+./install.sh
+```
+
+#### Windows
+
+```powershell
+git clone https://github.com/bwya77/vscode-dark-islands.git islands-dark
+cd islands-dark
+.\install.ps1
+```
+
+The scripts will automatically:
+- ✅ Install the Islands Dark theme extension
+- ✅ Install the Custom UI Style extension
+- ✅ Install Bear Sans UI fonts
+- ✅ Merge settings into your VS Code: configuration
+- ✅ Enable Custom UI Style and reload VS Code:
+
+> **Note:** Geist Mono font must be installed separately from [vercel.com/font](https://vercel.com/font) (the script will remind you).
+
+### Manual Installation
+
+If you prefer to install manually, follow these steps:
+
+#### Step 1: Install the theme
 
 Clone this repo and install the theme as a local extension:
 
@@ -41,17 +74,17 @@ cd islands-dark
 code --install-extension .
 ```
 
-Alternatively, copy the `themes/islands-dark.json` file into a VS Code extension manually.
+Alternatively, copy the `themes/islands-dark.json` file into a VS Code: extension manually.
 
-### Step 2: Install the Custom UI Style extension
+#### Step 2: Install the Custom UI Style extension
 
 The floating panels, rounded corners, glass borders, and animations are powered by the **Custom UI Style** extension.
 
-1. Open **Extensions** in VS Code (`Cmd+Shift+X` / `Ctrl+Shift+X`)
+1. Open **Extensions** in VS Code: (`Cmd+Shift+X` / `Ctrl+Shift+X`)
 2. Search for **Custom UI Style** (by `subframe7536`)
 3. Click **Install**
 
-### Step 3: Install fonts
+#### Step 3: Install fonts
 
 This theme uses two fonts:
 
@@ -64,9 +97,9 @@ To install Bear Sans UI:
 
 If you prefer different fonts, update the `editor.fontFamily`, `terminal.integrated.fontFamily`, and `font-family` values in the settings.
 
-### Step 4: Apply the settings
+#### Step 4: Apply the settings
 
-Copy the contents of `settings.json` from this repo into your VS Code settings:
+Copy the contents of `settings.json` from this repo into your VS Code: settings:
 
 1. Open **Command Palette** (`Cmd+Shift+P` / `Ctrl+Shift+P`)
 2. Search for **Preferences: Open User Settings (JSON)**
@@ -74,7 +107,7 @@ Copy the contents of `settings.json` from this repo into your VS Code settings:
 
 > **Note:** If you already have existing settings, merge carefully. The key settings are `workbench.colorTheme`, `custom-ui-style.stylesheet`, and the font/indent preferences.
 
-### Step 5: Enable Custom UI Style
+#### Step 5: Enable Custom UI Style
 
 1. Open **Command Palette** (`Cmd+Shift+P` / `Ctrl+Shift+P`)
 2. Run **Custom UI Style: Enable**
