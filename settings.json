@@ -135,12 +135,28 @@
       "margin": "8px 8px 0 8px",
       "border-radius": "14px",
       "overflow": "hidden",
-      "max-height": "calc(100% - 16px) !important",
+      "max-height": "calc(100% - 15px) !important",
       "border-top": "1px solid rgba(255,255,255,0.1) !important",
       "border-left": "1px solid rgba(255,255,255,0.06) !important",
       "border-bottom": "1px solid rgba(255,255,255,0.02) !important",
       "border-right": "1px solid rgba(255,255,255,0.02) !important",
       "box-shadow": "0 2px 8px 0 rgba(0,0,0,0.3) !important"
+   },
+   ".part.panel.bottom .message-box-container": {
+      "border-radius": "10px !important",
+      "margin": "4px !important",
+      "width": "calc(100% - 34px) !important",
+      "box-sizing": "border-box !important"
+   },
+   ".part.panel.bottom .welcome-view-content": {
+      "border-radius": "10px !important",
+      "margin": "4px !important",
+      "width": "calc(100% - 34px) !important",
+      "box-sizing": "border-box !important"
+   },
+   ".part.panel.bottom .monaco-table": {
+      "border-radius": "10px !important",
+      "width": "calc(100% - 14px) !important"
    },
    ".part.activitybar": {
       "background": "#121216 !important",
