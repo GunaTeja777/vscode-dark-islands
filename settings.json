@@ -3,6 +3,7 @@
   "editor.fontFamily": "Geist Mono",
   "terminal.integrated.fontFamily": "Geist Mono",
   "custom-ui-style.font.monospace": "Geist Mono",
+  "editor.lineHeight": 1.8,
   "workbench.tree.indent": 16,
   "workbench.tree.renderIndentGuides": "always",
   "custom-ui-style.stylesheet": {
