@@ -260,11 +260,11 @@
       "margin-top": "-2px !important"
    },
    ".monaco-icon-label.file-icon::before": {
-      "filter": "drop-shadow(0 0 2px)",
+      "filter": "drop-shadow(0 0 2.5px currentColor)",
       "opacity": "1 !important"
    },
    ".tab .monaco-icon-label.file-icon::before": {
-      "filter": "drop-shadow(0 0 2px)",
+      "filter": "drop-shadow(0 0 2.5px currentColor)",
       "opacity": "1 !important"
    },
    ".letterpress": {

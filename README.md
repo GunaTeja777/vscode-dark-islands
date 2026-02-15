@@ -22,6 +22,7 @@ A dark color theme for Visual Studio Code inspired by JetBrains' Islands Dark th
 - Tab close buttons that fade in on hover
 - Smooth transitions on sidebar selections, scrollbars, and status bar
 - Pill-shaped scrollbar thumbs
+- Color-matched icon glow effect (works best with [Seti Folder](https://marketplace.visualstudio.com/items?itemName=l-igh-t.vscode-theme-seti-folder) icon theme)
 - Warm syntax highlighting with comprehensive language support (JS/TS, Python, Go, Rust, HTML/CSS, JSON, YAML, Markdown)
 - Geist Mono font throughout
 
@@ -100,7 +101,16 @@ The floating panels, rounded corners, glass borders, and animations are powered 
 2. Search for **Custom UI Style** (by `subframe7536`)
 3. Click **Install**
 
-#### Step 3: Install fonts
+#### Step 3: Install recommended icon theme
+
+For the best experience with the color-matched icon glow effect, install the **Seti Folder** icon theme:
+
+1. Open **Extensions** in VS Code (`Cmd+Shift+X` / `Ctrl+Shift+X`)
+2. Search for **[Seti Folder](https://marketplace.visualstudio.com/items?itemName=l-igh-t.vscode-theme-seti-folder)** (by `l-igh-t`)
+3. Click **Install**
+4. Set it as your icon theme: **Command Palette** > **Preferences: File Icon Theme** > **Seti Folder**
+
+#### Step 5: Install fonts
 
 This theme uses two fonts:
 
@@ -113,7 +123,7 @@ To install Bear Sans UI:
 
 If you prefer different fonts, update the `editor.fontFamily`, `terminal.integrated.fontFamily`, and `font-family` values in the settings.
 
-#### Step 4: Apply the settings
+#### Step 6: Apply the settings
 
 Copy the contents of `settings.json` from this repo into your VS Code: settings:
 
@@ -123,7 +133,7 @@ Copy the contents of `settings.json` from this repo into your VS Code: settings:
 
 > **Note:** If you already have existing settings, merge carefully. The key settings are `workbench.colorTheme`, `custom-ui-style.stylesheet`, and the font/indent preferences.
 
-#### Step 5: Enable Custom UI Style
+#### Step 7: Enable Custom UI Style
 
 1. Open **Command Palette** (`Cmd+Shift+P` / `Ctrl+Shift+P`)
 2. Run **Custom UI Style: Enable**
@@ -148,7 +158,7 @@ Copy the contents of `settings.json` from this repo into your VS Code: settings:
 | **Tabs** | Browser-tab style (active tab open at bottom), close button fades in on hover |
 | **Breadcrumbs** | Hidden until hover with smooth fade transition |
 | **Status bar** | Dimmed text that brightens on hover |
-| **File icons** | Subtle glow via drop-shadow |
+| **File icons** | Color-matched glow via drop-shadow (best with Seti Folder icon theme) |
 
 ## Troubleshooting
 
