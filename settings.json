@@ -211,6 +211,9 @@
       "border-radius": "9999px !important",
       "overflow": "hidden !important"
    },
+   ".scm-input + .scm-editor-toolbar + .monaco-button": {
+      "border-radius": "9999px !important"
+   },
    ".part.sidebar .monaco-button": {
       "border-radius": "9999px !important"
    },
@@ -453,5 +456,6 @@
    ".tab.active .tab-actions": {
       "opacity": "1 !important"
    }
-  }
+  },
+  "workbench.iconTheme": "vs-seti-folder"
 }
