@@ -8,7 +8,12 @@
 </a>
 
 
-A dark color theme for Visual Studio Code inspired by JetBrains' Islands Dark theme. Features floating glass-like panels, rounded corners, smooth animations, and a deeply refined UI.
+A dark color theme for Visual Studio Code inspired by the easemate IDE. Features floating glass-like panels, rounded corners, smooth animations, and a deeply refined UI.
+
+- [easemate](https://x.com/easemate)
+- [easemate Nav](https://x.com/Jakubantalik/status/1952672176450215944)
+- [easemate effects](https://x.com/aaroniker/status/1989727838992539655)
+
 
 ![Islands Dark Screenshot](assets/CleanShot%202026-02-14%20at%2021.47.05@2x.png)
 
